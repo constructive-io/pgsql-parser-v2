@@ -1,4 +1,4 @@
-import { Type, Enum, Field } from '@launchql/protobufjs';
+import { Type, Enum, Field } from '@constructive-io/protobufjs';
 import { isPrimitiveType } from './types';
 import { NODE_TYPE } from '../constants';
 

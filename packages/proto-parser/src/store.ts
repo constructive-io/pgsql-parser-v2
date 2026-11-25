@@ -1,4 +1,4 @@
-import { Service, Type, Field, Enum, Namespace, ReflectionObject } from '@launchql/protobufjs';
+import { Service, Type, Field, Enum, Namespace, ReflectionObject } from '@constructive-io/protobufjs';
 import { generateEnumImports, generateAstHelperMethods, generateWrappedAstHelperMethods, generateTypeImportSpecifiers, generateEnumValueFunctions, generateEnumToIntFunctions, generateEnumToStringFunctions, generateEnumToIntFunctionsNested, generateEnumToStringFunctionsNested, convertEnumToTsUnionType, convertEnumToTsEnumDeclaration, generateNodeUnionType, convertTypeToTsInterface } from './ast';
 import { RuntimeSchemaGenerator } from './runtime-schema';
 import { generateEnum2IntJSON, generateEnum2StrJSON } from './ast/enums/enums-json';
