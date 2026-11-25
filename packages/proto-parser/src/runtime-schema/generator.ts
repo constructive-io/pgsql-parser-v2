@@ -1,4 +1,4 @@
-import { Type, Field, Enum, Namespace, ReflectionObject } from '@launchql/protobufjs';
+import { Type, Field, Enum, Namespace, ReflectionObject } from '@constructive-io/protobufjs';
 import { NodeSpec, FieldSpec } from './types';
 
 export class RuntimeSchemaGenerator {

@@ -1,4 +1,4 @@
-import { Type, Field } from '@launchql/protobufjs';
+import { Type, Field } from '@constructive-io/protobufjs';
 import * as t from '@babel/types';
 import { createNamedImport, createNamedImportAsSuffix, getFieldName, toSpecialCamelCase } from '../../utils';
 import { PgProtoParserOptions } from '../../options';

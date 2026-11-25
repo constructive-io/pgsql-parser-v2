@@ -170,7 +170,7 @@ ${chalk.yellow('Examples:')}
                     --inFile pg_query.proto \\
                     --outFile pg_query.js \\
                     --replace-pkg "protobufjs/minimal" \\
-                    --with-pkg "@launchql/protobufjs/minimal"
+                    --with-pkg "@constructive-io/protobufjs/minimal"
 `);
 }
 

@@ -1,4 +1,4 @@
-import { Type } from "@launchql/protobufjs";
+import { Type } from "@constructive-io/protobufjs";
 import { ProtoStore } from "../src/store";
 import { getDependents, getDependencies, getUndefinedKey } from "../src/utils";
 import { getStore } from "../test-utils";

@@ -1,4 +1,4 @@
-import { Enum } from '@launchql/protobufjs';
+import { Enum } from '@constructive-io/protobufjs';
 import * as t from '@babel/types';
 import { createNamedImport } from '../../utils';
 
